@@ -1,0 +1,87 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    background-color: #001f3f; /* Deep navy blue */
+    color: white;
+    padding: 15px;
+}
+
+nav h3, nav h1 {
+    margin: 0;
+}
+
+nav .options ul {
+    list-style: none;
+}
+
+nav .options ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav .options ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .options ul li a:hover {
+    text-decoration: underline;
+}
+
+.section1 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.maincontents {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #001f3f; /* Use the same deep navy blue for headings */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #001f3f; /* Deep navy blue for table header */
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #e9ecef;
+}
+
+table td[colspan="4"] {
+    text-align: center;
+    font-weight: bold;
+}

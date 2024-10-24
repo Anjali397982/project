@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #35424a;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav h1, nav h3 {
+    margin: 0;
+}
+
+nav .options {
+    float: right;
+}
+
+nav .options ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav .options ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav .options ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.section1 {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #35424a;
+    color: white;
+    padding: 20px;
+    height: 100vh; /* Full height sidebar */
+}
+
+.sidebar .options2 a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+
+.sidebar .options2 a:hover {
+    background-color: #35424a;
+    padding: 5px;
+}
+
+.maincontents {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #35424a;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}

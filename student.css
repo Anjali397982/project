@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: azure;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+nav h3{
+    font-size: 25px;
+    color: blue;
+}
+nav h1{
+    font-size: 35px;
+}
+.options{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.options button{
+    width: 80px;
+    padding: 10px;
+}
+.options ul li a{
+    text-decoration: none;
+}
+.section1{
+    width: 100%;
+    display: flex;
+}
+.section1 .sidebar{
+    width: 30%;
+    height: 650px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.section1 .sidebar .options2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.options2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.section1 .maincontent{
+    width: 70%;
+    background-color: white;
+}
+.maincontents h1{
+    padding-left: 30px;
+}
